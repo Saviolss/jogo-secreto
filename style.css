@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@400;500&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root{
+    --font-family: "Roboto", sans-serif;
+    --bg:#41C9E2;
+    --font-color:#F7EEDD;
+    --border:#008DDA;
+}
+
+body{
+    background-color: var(--bg);
+    max-height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 180px auto;
+}
+
+.texto-principal{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.texto-segundario{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 3em;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+.chute-mensagem{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.box{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid var(--border);
+}
+
+h3{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 5em;
+    font-weight: 400;
+}
+
+h4{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.jogar-btn{
+    background-color: var(--font-color);
+    color: var(--border);
+    border:4px solid var(--font-color);
+    padding: 10px 15px;
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+
+.jogar-btn:hover{
+    background-color: transparent;
+    border:4px solid var(--font-color);
+    color: var(--font-color);
+}
